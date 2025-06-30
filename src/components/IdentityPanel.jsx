@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import pfp from "../assets/pfp.jpg"
+import pfp from "../assets/pfp.png"
 import map from "../assets/map.jpg"
 import resume from "../assets/resume.pdf"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
@@ -112,6 +112,7 @@ const IdentityCard = () => {
                         href={"https://github.com/Ctrl-Ahsan"}
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="github"
                     >
                         <FaGithub
                             style={{ fontSize: "2.5em", paddingRight: "5px" }}
@@ -129,7 +130,8 @@ const IdentityCard = () => {
             <div className="panel">
                 <div className="panelHeading">about</div>
                 <div className="panelText">
-                    Hi, I'm a Computing student at Queen's University
+                    Hi, I'm a recent Computer Science graduate from Queen’s
+                    University
                 </div>
             </div>
             <div className="panel">
@@ -137,10 +139,9 @@ const IdentityCard = () => {
                 <div className="panelText">1 year</div>
             </div>
             <div className="panel">
-                <div className="panelHeading">objective</div>
+                <div className="panelHeading">currently</div>
                 <div className="panelText">
-                    I'm actively seeking a new graduate software development
-                    role starting January 2025
+                    Actively seeking a full-time software developer position
                 </div>
             </div>
             <div className="panel">
@@ -154,15 +155,15 @@ const IdentityCard = () => {
                             typewriter
                                 .changeDeleteSpeed(10)
                                 .typeString(
-                                    "Fascinated by VR/AR and the future of digital interaction"
+                                    "Fascinated by AI and its power to build smarter products"
+                                )
+                                .pauseFor(4000)
+                                .deleteChars(56)
+                                .typeString(
+                                    "Excited about VR/AR and the future of digital interaction"
                                 )
                                 .pauseFor(4000)
                                 .deleteChars(57)
-                                .typeString(
-                                    "Excited about web3 and blockchain technology"
-                                )
-                                .pauseFor(4000)
-                                .deleteChars(44)
                                 .typeString(
                                     "Passionate about building exceptional digital experiences"
                                 )
