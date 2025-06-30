@@ -13,7 +13,7 @@ const ExperiencePanel = () => {
 
         .heading {
             margin-top: 50px;
-            margin-bottom: 100px;
+            margin-bottom: 75px;
             font-size: 3em;
             font-weight: 500;
         }
@@ -101,7 +101,6 @@ const ExperiencePanel = () => {
                     <div className="techStack">
                         <div className="tech">TypeScript</div>
                         <div className="tech">Angular</div>
-                        <div className="tech">Jasmine</div>
                         <div className="tech">C#</div>
                         <div className="tech">.NET</div>
                         <div className="tech">SQL</div>
@@ -114,19 +113,19 @@ const ExperiencePanel = () => {
                                 improving maintainability
                             </li>
                             <li className="bullet">
-                                Developed a reporting feature enabling users to
-                                schedule automated emails with PDF / CSV reports
-                                generated from custom data configurations for
-                                real-time insights
+                                Developed a reporting feature in a distributed
+                                system, enabling users to schedule and automate
+                                data insights
                             </li>
                             <li className="bullet">
                                 Localized flagship product for Japanese market,
-                                enhancing accessibility and user experience
+                                enhancing accessibility and usability for
+                                international clients
                             </li>
                             <li className="bullet">
                                 Conducted thorough unit and integration testing
                                 using Jasmine, identifying and resolving bugs
-                                early in the development lifecycle
+                                early in the agile development lifecycle
                             </li>
                         </ul>
                     </div>

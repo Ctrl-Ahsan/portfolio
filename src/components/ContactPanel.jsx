@@ -113,7 +113,7 @@ const ContactPanel = () => {
                 ></textarea>
 
                 {submit && <Spinner />}
-                {!submit && <button type="submit">Submit</button>}
+                {!submit && <button type="submit">Send</button>}
             </form>
         )
     }
